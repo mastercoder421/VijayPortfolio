@@ -12,7 +12,7 @@ import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { CursorSpotlight } from './components/CursorSpotlight';
 import { ScrollProgress } from './components/ScrollProgress';
-import { BootScreen } from './components/BootScreen';
+import { SignatureIntro } from './components/SignatureIntro';
 import { CommandPalette } from './components/CommandPalette';
 import { SectionDivider } from './components/SectionDivider';
 
@@ -49,8 +49,8 @@ export const App: React.FC = () => {
 
   return (
     <ThemeProvider>
-      {/* Terminal Boot Screen (shown once per session, skippable) */}
-      {!isBooted && <BootScreen onComplete={() => setIsBooted(true)} />}
+      {/* Handwritten Signature Intro (shown once per session, skippable) */}
+      {!isBooted && <SignatureIntro onComplete={() => setIsBooted(true)} />}
 
       {/* Top Gradient Scroll Progress Line */}
       <ScrollProgress />

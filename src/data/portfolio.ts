@@ -157,11 +157,9 @@ export const portfolioData = {
 
   about: {
     paragraphs: [
-      "I'm an Electronics and Communication Engineering undergraduate at PDPM IIITDM Jabalpur who enjoys solving problems, building useful applications, and exploring how technology can make everyday tasks easier.",
-      "My journey in software development started with a strong interest in programming and problem-solving. Over time, I've explored full-stack web development using React, Node.js, Express, and MongoDB. I enjoy turning ideas into working applications, figuring out how different components fit together, and continuously improving the way I write code.",
-      "Competitive programming is another important part of my journey. I'm a Codeforces Specialist and a 3-star CodeChef coder, with over 1500+ problems solved across coding platforms. It has helped me develop logical thinking, approach challenging problems with patience, and write efficient solutions.",
-      "Beyond coding, I enjoy helping others learn. As a Programming Mentor at IIITDM Jabalpur, I've mentored 100+ students in Data Structures, Algorithms, and competitive programming. Through the Jagriti initiative, I've also helped younger students prepare for their academic goals.",
-      "For me, software development isn't just about writing code. It's about understanding real problems, learning from challenges, and building solutions that people can actually use.",
+      "I'm a software developer passionate about competitive programming, full-stack development, and building practical solutions to real-world problems. I enjoy solving challenging problems, exploring new technologies, and turning ideas into functional applications.",
+      "With a strong foundation in Data Structures and Algorithms, I focus on writing efficient, scalable code and approaching complex problems with logical thinking. I also enjoy understanding software architecture and building applications that are reliable, well-structured, and user-friendly.",
+      "Feel free to connect if you'd like to discuss programming, web development, software engineering, or exciting tech ideas. Let's build something meaningful together!",
     ],
     education: {
       institute: "PDPM IIITDM Jabalpur",
