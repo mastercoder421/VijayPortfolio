@@ -3,6 +3,7 @@ import { ArrowUp, Github, Linkedin, Mail } from 'lucide-react';
 import { portfolioData } from '../data/portfolio';
 import { getGmailComposeUrl } from '../utils/email';
 import { InstagramIcon, XIcon } from './icons/BrandIcons';
+import { VisitorCounter } from './VisitorCounter';
 
 export const Footer: React.FC = () => {
   const { personal } = portfolioData;
@@ -19,6 +20,11 @@ export const Footer: React.FC = () => {
   return (
     <footer id="footer" className="relative border-t border-slate-200 dark:border-white/10 bg-white/70 dark:bg-zinc-950/40 backdrop-blur-md py-8 transition-colors duration-300">
       <div className="mx-auto w-full max-w-6xl px-4 sm:px-6">
+        {/* Live Visitor Counter */}
+        <div className="flex justify-center mb-6">
+          <VisitorCounter />
+        </div>
+
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           {/* Copyright notice */}
           <p className="text-sm font-medium text-slate-600 dark:text-zinc-400 font-mono text-center sm:text-left">
