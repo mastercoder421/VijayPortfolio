@@ -254,13 +254,36 @@ export const portfolioData = {
       title: "WallGodds – Open Source Android Wallpaper App",
       featured: false,
       description:
-        "An open-source Android wallpaper platform developed with Kotlin and Jetpack Compose. Integrated Firebase Authentication and backend cloud storage for seamless wallpaper delivery during GirlScript Summer of Code 2025.",
-      screenshots: [],
+        "An open-source Android wallpaper mobile app developed with Kotlin and Jetpack Compose. Integrated Firebase Authentication and backend cloud storage for seamless wallpaper delivery during GirlScript Summer of Code 2025.",
+      screenshots: [
+        {
+          url: "/assets/wallgoods/Home Page.png",
+          caption: "Home",
+        },
+        {
+          url: "/assets/wallgoods/Profile Page.png",
+          caption: "Profile",
+        },
+        {
+          url: "/assets/wallgoods/Sign In Page.png",
+          caption: "Sign In",
+        },
+        {
+          url: "/assets/wallgoods/Wallpaper Page.png",
+          caption: "Wallpaper",
+        },
+      ],
       techStack: [
         "Kotlin",
         "Jetpack Compose",
         "Firebase Auth",
         "Android Studio",
+        "Mobile App",
+      ],
+      highlights: [
+        "Reactive state architecture with high-efficiency async image streaming.",
+        "Integrated Firebase Authentication and cloud media storage.",
+        "Contributed during GirlScript Summer of Code (GSSoC 2025).",
       ],
       githubUrl: "https://github.com/mastercoder421/WallGodds-App/tree/main",
     },
